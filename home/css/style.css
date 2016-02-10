@@ -281,10 +281,9 @@ p {
 }
 .bannerImg{
     position: relative;
-    display: inline-block;
+    display: inline;
     margin-top: 30px;
     float: right;
-    max-width: 100;
 }
 
 ul.icon_list_social{
@@ -826,7 +825,7 @@ transition: all .25s ease;
 
 .social_links {
     padding:0;
-    margin: 0;
+    margin-top: 18px;
     display: block;
     overflow: hidden;
     list-style: none;
@@ -1599,18 +1598,10 @@ div.mc-image {
 --------------------------- */
 @media (max-width: 1200px) {
 .bannerImg{
-    display: inline-block;
-    position: fixed;
-    float: right;
+    display: none;
+
 }    
 
-}
-@media (max-width: 768px) {
-.bannerImg{
-display: block;
-position: relative;
-float: none;
-}
 p{
 font-size:14px;
 }
@@ -1626,16 +1617,17 @@ font-size: 38px;
 color: #000;
 line-height: 51px;
 margin: 0 0 0 0;
-text-align: center;
+text-align: left;
 }
 .top_left_cont h2 {
 font-size: 22px;
 color: #202020;
 line-height: 39px;
 margin: 0 0 9px 0;
+text-align: left;
 }
 .top_left_cont ul{
-    text-align: center;
+    text-align: left;
     margin-top: 20px;
 }
 .top_left_cont ul p{
@@ -1693,7 +1685,7 @@ font-size: 30px;
 padding: 60px 0 50px;
 } 
 .navbar-inverse .navbar-toggle .icon-bar{
-background:#005490;
+background:#fff;
 }
 .navbar-inverse .navbar-toggle {
 border-color: transparent;

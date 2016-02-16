@@ -747,17 +747,17 @@ padding-bottom: 21px;
 }
 .single_contact_info h2{
     text-transform: uppercase;
-    text-align: justify;
+    text-align: center;
     color: #fff;
     font-size: 18px;
     letter-spacing: 3px;
-    margin-bottom: 1px;	
+    margin-bottom: 18px;	
 }
 .single_contact_info p{
-    text-align: justify;
+    text-align: center;
     font-size: 15px;
     color: #efefef;
-    margin-top: 14px;
+    
 }
 
 .contact-form{
@@ -794,7 +794,6 @@ padding-top: 10px;
 	color: #f0f0f0;
     text-align: center;
     padding-top: 16px;
-    padding-left: 25vw;
 	text-transform: uppercase;
 }
 
@@ -803,7 +802,7 @@ padding-top: 10px;
     margin: 0;
     padding: 0;
     list-style: none;
-    text-align: left;
+    text-align: center;
     margin-top: 14px;
 }
 
@@ -814,8 +813,8 @@ padding-top: 10px;
 }
 .contact ul.icon_list_social li a{
     display: inline-block;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 50%;
     width: 32px;
     height: 32px;
@@ -826,9 +825,9 @@ padding-top: 10px;
 
 }
 .contact ul.icon_list_social li a:hover{
-	color: #000;
-	border-color:#000;
-    background-color: #fff;
+	color: #000000;
+	border-color:#000000;
+    background-color: #ffffff;
 }
 
 
